@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canserbero — Rap Eterno</title>
+    <!-- Google Fonts: Oswald para títulos, Lato para cuerpo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-logo">
+            <span class="logo-principal">CANSERBERO</span>
+            <span class="logo-sub">1988 – 2015</span>
+        </div>
+        <!-- Botón hamburguesa para móvil -->
+        <button class="hamburguesa" id="hamburguesa" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Biografia.html">Biografía</a></li>
+            <li><a href="Historia.html">Historia</a></li>
+            <li><a href="Albumes.html">Álbumes</a></li>
+            <li><a href="Canciones.html">Canciones</a></li>
+            <li><a href="Videos.html">Videos</a></li>
+            <li><a href="Legado.html">Legado</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="inicio" class="hero">
+        <div class="hero-linea"></div>
+        <div class="hero-contenido">
+            <p class="hero-eyebrow">Tyrone José González Oramas</p>
+            <h1 class="hero-titulo">CANSERBERO</h1>
+            <p class="hero-subtitulo">Poeta del asfalto. Voz de una generación.</p>
+            <div class="hero-fechas">
+                <p>--------------------------------11 mar 1988 - 20 ene 2015--------------------------</p>
+            </div>
+            <a href="#biografia" class="btn-hero">Conocer su historia</a>
+        </div>
+        <div class="hero-imagen-wrap">
+            <img
+                src="https://i.scdn.co/image/ab6761610000e5eba91405d63c939682e4efdcbc"
+                alt="Canserbero en concierto"
+                class="hero-img">
+        </div>
+    </section>
+
+    <!-- ===== FRASES CÉLEBRES ===== -->
+    <section id="frases" class="seccion seccion-oscura seccion-frases">
+        <div class="seccion-inner">
+            <span class="etiqueta etiqueta-dorada">Frases</span>
+            <h2>Sus palabras</h2>
+            <!-- Las frases se rotan con JavaScript -->
+            <div class="frase-display">
+                <blockquote id="frase-texto">
+                    "La vida es un sueño del que nadie quiere despertar."
+                </blockquote>
+                <cite id="frase-cancion">— Canserbero</cite>
+            </div>
+            <button class="btn-frase" id="btn-frase">Siguiente frase</button>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-inner">
+            <p class="footer-nombre">CANSERBERO</p>
+            <p class="footer-sub">1988 — 2015 · Caracas, Venezuela</p>
+            <p class="footer-nota">Página de homenaje creada con HTML, CSS y JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
